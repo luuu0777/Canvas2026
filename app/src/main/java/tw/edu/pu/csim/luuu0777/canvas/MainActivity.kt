@@ -66,12 +66,7 @@ fun CanvasScreen(modifier: Modifier = Modifier) {
             minionsX += 1
             minionsY += 1
 
-            if (CanvasWidth > 0f && CamvasHeight > 0f){
-                if (minionsX > CanvasWidth || minionsY > CamvasHeight) {
-                    minionsX = 0f
-                    minionsY = 0f
-                }
-            }
+
         }
     }
 
